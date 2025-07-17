@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+   <main>
+    <div class="heading">Calculator</div>
+
+    <div class="main_body">
+         
+        <div class="display">
+            <input type="text" value="0"></input>
+        </div>
+        <div class="buttons">
+            <button class="b1" onclick="document.querySelector('input').value=''; current_val=''">C</button>
+            <button class="b2" onclick="document.querySelector('input').value=current_val + '1'; current_val=current_val + '1'">1</button>
+            <button class="b3" onclick="document.querySelector('input').value=current_val + '2'; current_val=current_val + '2'">2</button>
+            <button class="b4" onclick="document.querySelector('input').value=current_val + '+'; current_val=current_val + '+'">+</button>
+            <button class="b5" onclick="document.querySelector('input').value=current_val + '3'; current_val=current_val + '3'">3</button>
+            <button class="b6" onclick="document.querySelector('input').value=current_val + '4'; current_val=current_val + '4'">4</button>
+            <button class="b7" onclick="document.querySelector('input').value=current_val + '-'; current_val=current_val + '-'">-</button>
+            <button class="b8" onclick="document.querySelector('input').value=current_val + '5'; current_val=current_val + '5'">5</button>
+            <button class="b9" onclick="document.querySelector('input').value=current_val + '6'; current_val=current_val + '6'">6</button>
+            <button class="b10" onclick="document.querySelector('input').value=current_val + '*'; current_val=current_val + '*'">*</button>
+            <button class="b11" onclick="document.querySelector('input').value=current_val + '7'; current_val=current_val + '7'">7</button>
+            <button class="b12" onclick="document.querySelector('input').value=current_val + '8'; current_val=current_val + '8'">8</button>
+            <button class="b13" onclick="document.querySelector('input').value=current_val + '/'; current_val=current_val + '/'">/</button>
+            <button class="b14" onclick="current_val=eval(current_val); document.querySelector('input').value=current_val ">=</button>
+            <button class="b15" onclick="document.querySelector('input').value=current_val + '9'; current_val=current_val + '9'">9</button>
+            <button class="b16" onclick="document.querySelector('input').value=current_val + '0'; current_val=current_val + '0'">0</button>
+            <button class="b17" onclick="document.querySelector('input').value=current_val + '.'; current_val=current_val + '.'">.</button>
+        </div>
+    </div>
+
+   </main>
+    
+    <script src="index.js"></script>
+</body>
+</html>

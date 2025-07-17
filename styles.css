@@ -1,0 +1,128 @@
+
+*{
+    margin: 0;
+    padding: 0;
+       font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategrey;
+}
+
+
+.buttons button{
+    background-color:grey;
+    color: cornsilk;
+   height: 72px;
+    width: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size:xx-large;
+}
+
+.buttons button:hover{
+    background-color: darkslategray;
+    color:darkseagreen;
+   height: 72px;
+    width: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size:xx-large;
+}
+
+
+.buttons button:active{
+    background-color: black;
+    color: cornsilk;
+    height: 72px;
+    width: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size:xx-large;
+}
+
+
+.main_body{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 2%;
+    display: flex;  
+    flex-direction: column;
+    height: 712px;
+    width: 378px;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.buttons{
+    margin-top: 50px;
+    display: flex;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+
+.b1, .b4, .b7, .b10, .b13{
+    margin-left: 12%;
+}
+
+.b3, .b6, .b9, .b12, .b15{
+    margin-right: 12%;
+}
+
+input{
+    margin-top: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    color:cornsilk;
+    background-color:darkslategray;
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 82%;
+    width: 88%;
+    font-size:xx-large;
+}
+
+.heading{
+    font-size: 50px;
+    font-weight: 700;
+    color: #f5f5f5;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
